@@ -13,7 +13,7 @@ pipeline {
                  $class: 'GitSCM',
                  branches: [[name: 'main']],
                  userRemoteConfigs: [[
-                    url: 'https://github.com/devopseng129/DevOpsClassCodes.git',
+                    url: 'https://github.com/devopseng129/webhook-pipeline.git',
                     credentialsId: '',
                  ]]
                 ])
